@@ -14,9 +14,9 @@ public:
   
   ExpressionOperations(string input);
 
-  string GetText() const;
+  string GetText();
 
-  int CalculateExpressionLength() const;
+  int CalculateExpressionLength();
 
   string ReplaceChars(char oldChar, char newChar);
 };
