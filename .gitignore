@@ -1,0 +1,9 @@
+.vs
+bin
+obj
+*.sln
+*.csproj
+*.vcxproj
+*.filters
+*.user
+Debug
