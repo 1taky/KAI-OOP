@@ -30,14 +30,14 @@ namespace LabWork_2
 
       //Test
 
-      ExpressionOperations expression1 = new ExpressionOperations();
-      Console.WriteLine(expression1.GetText());
+      //ExpressionOperations expression1 = new ExpressionOperations();
+      //Console.WriteLine(expression1.GetText());
 
-      ExpressionOperations expression2 = new ExpressionOperations(userInput);
-      Console.WriteLine(expression2.GetText());
+      //ExpressionOperations expression2 = new ExpressionOperations(userInput);
+      //Console.WriteLine(expression2.GetText());
 
-      ExpressionOperations expression3 = new ExpressionOperations(expression1);
-      Console.WriteLine(expression3.GetText());
+      //ExpressionOperations expression3 = new ExpressionOperations(expression1);
+      //Console.WriteLine(expression3.GetText());
 
     }
   }
