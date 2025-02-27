@@ -9,11 +9,11 @@ ExpressionOperations::ExpressionOperations(string input) {
   transform(text.begin(), text.end(), text.begin(), ::toupper);
 }
 
-string ExpressionOperations::GetText() {
+string ExpressionOperations::GetText() const {
   return text;
 }
 
-int ExpressionOperations::CalculateExpressionLength() {
+int ExpressionOperations::CalculateExpressionLength() const{
   return text.length();
 }
 
