@@ -7,11 +7,6 @@ public class TrapezoidOperations
   private (double X, double Y) _c;
   private (double X, double Y) _d;
 
-  public (double X, double Y) A { get => _a; set => _a = value; }
-  public (double X, double Y) B { get => _b; set => _b = value; }
-  public (double X, double Y) C { get => _c; set => _c = value; }
-  public (double X, double Y) D { get => _d; set => _d = value; }
-
   public TrapezoidOperations()
   {
     _a = (0, 0);
