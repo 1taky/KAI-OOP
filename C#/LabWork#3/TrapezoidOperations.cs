@@ -49,7 +49,7 @@ public class TrapezoidOperations
     return Math.Sqrt(Math.Pow(p2.X - p1.X, 2) + Math.Pow(p2.Y - p1.Y, 2));
   }
 
-  public static TrapezoidOperations operator -(TrapezoidOperations t)
+  public TrapezoidOperations operator -(TrapezoidOperations t)
   {
     return new TrapezoidOperations(
         (t._a.X - 3, t._a.Y - 3),
@@ -59,7 +59,7 @@ public class TrapezoidOperations
     );
   }
 
-  public static TrapezoidOperations operator *(TrapezoidOperations t1, TrapezoidOperations t2)
+  public TrapezoidOperations operator *(TrapezoidOperations t1, TrapezoidOperations t2)
   {
     return new TrapezoidOperations(
         (t1._a.X * t2._a.X, t1._a.Y * t2._a.Y),
